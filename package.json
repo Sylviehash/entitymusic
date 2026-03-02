@@ -1,17 +1,16 @@
 {
-  "name": "entitymusic",
-  "version": "1.0.0",
-  "description": "Bot musique EntityObsi",
-  "main": "index.js",
-  "type": "commonjs",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "discord.js": "^14.14.1",
-    "@discordjs/voice": "^0.16.0",
-    "ytdl-core": "^4.11.5",
-    "yt-search": "^2.10.4",
-    "dotenv": "^16.4.5"
-  }
+"name": "entitymusic",
+"version": "1.0.0",
+"description": "Bot musique EntityObsi",
+"main": "index.js",
+"type": "commonjs",
+"scripts": {
+"start": "node index.js"
+},
+"dependencies": {
+"discord.js": "^14.14.1",
+"@discordjs/voice": "^0.16.0",
+"play-dl": "^1.9.6",
+"dotenv": "^16.4.5"
+}
 }
